@@ -30,23 +30,23 @@ body{
   margin: 1.2em;
   background-size: cover ;
   background-position: center;
-
+  font-family: 'Andika', sans-serif;
   /*Req 1*/
 }
 
 h1{
   color: #c12258;
-  font-size: 2em;
-
+  font-size: 32px;
+  line-height: 2;
   /*Req 2*/
 }
 
 p{
-  
+  padding-top: 15px;
 }
 
 a{
-  
+  font-size: 16px;
 }
 
 /*Req 5*/
