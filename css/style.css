@@ -55,10 +55,16 @@ a{
 
 /*Req 5*/
 /*Add selector and rule here*/
-
+.focus{
+  color: #417243;
+  border-width: 3px;
+  border-style: dashed;
+}
 
 
 td{
+  margin-left: auto;
+  margin-right: auto;
   
 }
 
