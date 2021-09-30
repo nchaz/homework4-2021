@@ -63,8 +63,6 @@ a{
 
 
 td{
-  margin-left: auto;
-  margin-right: auto;
   
 }
 
@@ -81,6 +79,8 @@ td{
 
 table{
     border: 5px solid #000000;
+    margin-left: auto;
+  margin-right: auto;
 }
 
 /* I gave you the selector, but not the property-value pair. 
@@ -92,7 +92,8 @@ thead tr:first-child th:first-child{}
 
 
 footer{
-  width:100%;
+  height: 80px;
+  width:auto;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
