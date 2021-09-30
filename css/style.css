@@ -37,6 +37,7 @@ body{
 h1{
   color: #c12258;
   font-size: 32px;
+  margin: auto;
   line-height: 2;
   /*Req 2*/
 }
@@ -46,7 +47,10 @@ p{
 }
 
 a{
+  color: #C12258;
   font-size: 16px;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
 }
 
 /*Req 5*/
