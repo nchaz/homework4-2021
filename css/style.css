@@ -41,6 +41,7 @@ h1{
   color: #c12258;
   font-size: 32px;
   margin: auto;
+  text-align: center;
   line-height: 2;
   /*Req 2*/
 }
@@ -50,7 +51,7 @@ p{
 }
 
 a{
-  color: #C12258;
+  color: #B21F50;
   font-size: 16px;
   text-decoration-line: underline;
   text-decoration-style: wavy;
@@ -103,6 +104,7 @@ table{
 
 /* I gave you the selector, but not the property-value pair. 
 You can use Inspect Element or your editor to find selectors. */
+
 thead tr:first-child th:first-child{
   border-radius: 50px 0px 0px 0px;
 }
