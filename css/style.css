@@ -55,10 +55,8 @@ a{
 
 /*Req 5*/
 /*Add selector and rule here*/
-.focus{
-  color: #417243;
-  border-width: 3px;
-  border-style: dashed;
+*:focus{
+  border: 3px dashed #417243;
 }
 
 
@@ -80,7 +78,10 @@ td{
 }
 
 .rowhead{
-
+  border-top: 2px solid #000000;
+  border-right: 2px solid #000000;
+  text-align: center;
+  vertical-align: middle;
 }
 
 
@@ -93,16 +94,36 @@ table{
 
 /* I gave you the selector, but not the property-value pair. 
 You can use Inspect Element or your editor to find selectors. */
-thead tr:first-child th:first-child{}
+thead tr:first-child th:first-child{
+  border-radius: 50px 0px 0px 0px;
+}
+
+thead tr:last-child th:last-child{
+  border-radius: 0px 50px 0px 0px;
+}
+
+tbody tr:first-child th:first-child{
+  border-radius: 0px 0px 50px 0px;
+}
+
+tbody tr:last-child th:last-child{
+  border-radius: 0px 0px 0px 50px;
+}
+
+
 
 /*Add selectors and rules here*/
 
 
 
 footer{
-  height: 80px;
-  width:auto;
+  color: #FFFFFF;
+  min-height: 75px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background:#000000;
   text-align:center;
-  color: #FFFFFF;
+  
 }
